@@ -9,9 +9,9 @@ module.exports = uriPart =>
           part
       ) :
       keyValue.split('=')
-  ).reduce((prev, [key, value]) =>
+  ).reduce((prev, keyValue) =>
     Object.assign(prev, {
-      [decodeURIComponent(key)]: decodeURIComponent(value)
+      [decodeURIComponent(keyValue[0])]: decodeURIComponent(keyValue[1])
     }),
     {}
   );
