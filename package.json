@@ -1,0 +1,22 @@
+{
+  "name": "parse-plain-qs",
+  "version": "0.0.1",
+  "description": "Parse plain querystring",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftBind/parse-plain-qs.git"
+  },
+  "author": "Soft Bind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftBind/parse-plain-qs/issues"
+  },
+  "homepage": "https://github.com/SoftBind/parse-plain-qs#readme",
+  "devDependencies": {
+    "ava": "*"
+  }
+}
