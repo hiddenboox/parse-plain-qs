@@ -11,6 +11,9 @@
     "url": "git+https://github.com/SoftBind/parse-plain-qs.git"
   },
   "author": "Soft Bind",
+  "engines": {
+    "node": ">=4"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SoftBind/parse-plain-qs/issues"
