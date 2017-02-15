@@ -2,9 +2,11 @@
   "name": "parse-plain-qs",
   "version": "0.0.1",
   "description": "Parse plain querystring",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
   },
   "homepage": "https://github.com/SoftBind/parse-plain-qs#readme",
   "devDependencies": {
-    "ava": "*"
+    "ava": "*",
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
   }
 }
