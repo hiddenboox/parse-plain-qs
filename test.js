@@ -1,5 +1,5 @@
-import test from 'ava';
-import parseURI from './';
+const test = require('ava');
+const parseURI = require('./src');
 
 test('encodedURI', t => {
   const hash = `${encodeURIComponent('fo@fa')}=bar&bar=${encodeURIComponent('blab@gmail.com')}`;
