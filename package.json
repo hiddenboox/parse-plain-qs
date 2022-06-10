@@ -27,7 +27,7 @@
     "@babel/preset-env": "^7.8.4",
     "ava": "*",
     "cz-conventional-changelog": "^3.1.0",
-    "semantic-release": "^17.0.4"
+    "semantic-release": "^19.0.3"
   },
   "config": {
     "commitizen": {
